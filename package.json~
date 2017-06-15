@@ -1,0 +1,29 @@
+{
+  "name": "excel_react",
+  "version": "1.0.0",
+  "description": "An excel knockoff created from React",
+  "main": "index.js",
+  "scripts": {
+    "prestart" : "node buildScripts/startMessage.js",
+    "start": "node buildScripts/srcServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/screwLock/Excel_React.git"
+  },
+  "author": "screwLock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/screwLock/Excel_React/issues"
+  },
+  "homepage": "https://github.com/screwLock/Excel_React#readme",
+  "devDependencies": {
+    "chalk": "^1.1.3",
+    "express": "^4.15.3",
+    "open": "0.0.5",
+    "react": "^15.6.0",
+    "react-dom": "^15.6.0",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {}
+}
